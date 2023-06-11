@@ -1,0 +1,49 @@
+.header {
+    background-color: #2d142c;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.logo_header{
+    display: flex;
+    color: #801336;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo_header_left{
+    color: #ee4540;
+}
+
+.header_left {
+    visibility: hidden;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #c72c41;
+}
+
+.header_right:hover {
+    color: #801336;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 30px 30px;
+    }
+    .header_left {
+        display: none;
+    }
+}

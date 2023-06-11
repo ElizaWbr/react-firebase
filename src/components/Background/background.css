@@ -1,0 +1,49 @@
+.container_background{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_background_one{
+    position: fixed;
+    background-color: #ee4540;
+    height: 100vh;
+    top: 0px;
+    width: 100%;
+    z-index: 21;
+}
+
+.container_background_two{
+    position: fixed;
+    background-color: #c72c41;
+    height: 60vh;
+    bottom: 0px;
+    width: 100%;
+    z-index: 22;
+}
+.container_background_three{
+    position: fixed;
+    background-color: #801336;
+    height: 50vh;
+    width: 100%;
+    bottom: 0px;
+    z-index: 23;
+}
+.container_background_four{
+    position: fixed;
+    background-color: #510a32;
+    height: 40vh;
+    width: 100%;
+    bottom: 0px;
+    z-index: 24;
+}
+.container_background_five{
+    position: fixed;
+    background-color: #2d142c;
+    height: 30vh;
+    width: 100%;
+    bottom: 0px;
+    z-index: 25;
+}
